@@ -1,0 +1,11 @@
+CHECK(s₁,o,p)
+  CHECK(s₂,o,p)
+    s₂ ↝ s₃
+    s₄ ↝ s₅
+  ¬CHECK(s₂,o,p)
+    s₄ ↝ s₅
+¬CHECK(s₁,o,p)
+  CHECK(s₂,o,p)
+    s₄ ↝ s₅
+  ¬CHECK(s₂,o,p)
+    s₄ ↝ s₅

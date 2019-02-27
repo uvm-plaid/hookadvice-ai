@@ -1,0 +1,2 @@
+(CHECK(s₁,o,p) ; (CHECK(s₂,o,p) ; s₂ ↝ s₃)) | (s₄ ↝ s₅)
+

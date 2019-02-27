@@ -1,0 +1,10 @@
+CHECK(sUUID,passwds,fcntl)
+  CHECK(sUUID,passwds,setown)
+    sroot ↝ susr
+  ¬CHECK(sUUID,passwds,setown)
+    sroot ↝ susr
+¬CHECK(sUUID,passwds,fcntl)
+  CHECK(sUUID,passwds,setown)
+    <none>
+  ¬CHECK(sUUID,passwds,setown)
+    <none>

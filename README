@@ -1,0 +1,10 @@
+This is the abstract interpretation tool provided as supplemental material to:
+
+Combining Types and Abstract Interpretation for Authorization Hook Advice.
+
+# Install
+
+First, install Haskell stack.
+
+Next, you should only need to run `make` from inside this directory, which will
+analyze all of the examples in the `examples/` folder.

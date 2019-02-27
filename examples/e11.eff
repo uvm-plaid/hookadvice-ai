@@ -1,0 +1,1 @@
+CHECK(sUUID,passwds,fcntl); sroot ↝ α; ((α ↝ susr) | (CHECK(sUUID,passwds,setown); α ↝ susr))

@@ -1,0 +1,4 @@
+CHECK(s1,o,p)
+  s₂ ↝ s₃
+¬CHECK(s1,o,p)
+  <none>

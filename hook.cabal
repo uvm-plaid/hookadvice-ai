@@ -1,0 +1,27 @@
+cabal-version: 2.2
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: c1048b6e211d676b76dd2b971ea10ed1181cbf3fa2853057ce99e5c19721b69f
+
+name:           hook
+version:        0.0.0.0
+build-type:     Simple
+
+executable hook
+  main-is: Main.hs
+  other-modules:
+      Analyze
+      Parser
+      Syntax
+      Paths_hook
+  hs-source-dirs:
+      src
+  default-extensions: ConstraintKinds DataKinds ExplicitNamespaces FlexibleContexts FlexibleInstances FunctionalDependencies GADTs GeneralizedNewtypeDeriving InstanceSigs KindSignatures LambdaCase MonadComprehensions MultiParamTypeClasses NoImplicitPrelude OverloadedStrings PatternSynonyms PolyKinds QuantifiedConstraints RankNTypes RebindableSyntax ScopedTypeVariables StandaloneDeriving Strict StrictData TemplateHaskell TypeApplications TypeOperators UndecidableInstances UndecidableSuperClasses UnicodeSyntax ViewPatterns
+  ghc-options: -Wall -Wno-orphans -O0 -j
+  build-depends:
+      base
+    , uvmhs
+  default-language: Haskell2010
